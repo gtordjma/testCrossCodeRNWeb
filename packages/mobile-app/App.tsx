@@ -9,6 +9,7 @@ export default function App() {
       <StatusBar style="auto" />
       {[1, 2, 3].map((e) => (
         <LogementCard
+          key={e}
           data={{
             image: {
               uri: "https://www.challenges.fr/assets/img/2022/10/26/cover-r4x3w1200-63595fc246f00-20220404-02.jpg",
