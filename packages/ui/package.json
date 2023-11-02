@@ -2,5 +2,10 @@
   "name": "@test/ui",
   "version": "1.0.0",
   "main": "src/index.ts",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
 }
