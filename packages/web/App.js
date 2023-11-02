@@ -27,7 +27,6 @@ export default function App() {
       <View
         style={{
           flex: 0.45,
-          paddingTop: 50,
           justifyContent: "center",
         }}
       >
